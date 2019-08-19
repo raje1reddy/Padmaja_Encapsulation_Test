@@ -1,10 +1,6 @@
-import static org.junit.Assert.*;
-
-
-public class EmployeeTest {
+public class PhoneTest {
     public static void main (String args[]) {
-        Employee emp = new Employee();
-        System.out.println(emp.age);
+        Phone ph = new Phone();
+        ph.weight = -12.23;  //Assign a negative weight to Phone
     }
-
 }
