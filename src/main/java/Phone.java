@@ -1,12 +1,14 @@
 
 class Phone {
-    String model;
-    String company;
-    double weight;  //Instance variables that store the state of an object of Phone
-    void makeCall(String number) {
-        //Methods ; details not relevant at this point
+
+  private  double weight;  //Instance variables that store the state of an object of Phone
+    public void setWeight(double val) {
+        if (val >= 0 && val <= 1000){
+            weight = val;
+        }
     }
-    void receiveCall(){
+    public double getWeight(){
+        return weight;
     }
 }
 
